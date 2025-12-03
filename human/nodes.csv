@@ -1,0 +1,46 @@
+id,x,y,label,color,size,center_x,center_y,FSTcomments
+0,2228,935,V1,red,5,0.00,0.35,testingCitation1
+1,2200,945,V2, red,5,-0.025,0.80,FSTcomments
+3,2170,955,V3, red,5,-0.025,0.80,FSTcomments
+4,2200,792,V3A, red,5,-0.025,0.80,FSTcomments
+5,2114,1040,V4, red,5,-0.025,0.80,FSTcomments
+6,1930,1040,V4t,pink,5,-0.025,0.70,FSTcomments
+7,1930,900,MT,pink,5,0.025,0.70,FSTcomments
+8,1845,946,MST, #B58863,5,-0.025,0.80,FSTcomments
+9,1830,1040,FST, pink,5,-0.025,0.80,FSTcomments
+10,2020,968,LO1, pink,5,-0.025,0.80,FSTcomments
+11,1975,1070,LO2, pink,5,-0.025,0.80,FSTcomments
+12,2000,895,LO3, pink,5,-0.025,0.80,FSTcomments
+13,1945,1140,PIT, green,5,-0.025,0.80,FSTcomments
+14,1756,1130,PH, green,5,-0.025,0.80,FSTcomments
+15,1675,1058,PHT, green,5,-0.025,0.80,FSTcomments
+16,1810,1265,FFC, green,5,-0.025,0.80,FSTcomments
+17,1362,1010,STSp, green,5,-0.025,0.80,FSTcomments
+18,1491,1123,TE1p, green,5,-0.025,0.80,FSTcomments
+19,1589,1300,TE2p, green,5,-0.025,0.80,FSTcomments
+20,1245,1200,TE1m, green,5,-0.025,0.80,FSTcomments
+21,950,1230,STSa, green,5,-0.025,0.80,FSTcomments
+22,1000,1310,TE1a, green,5,-0.025,0.80,FSTcomments
+23,1030,1390,TE2a, green,5,-0.025,0.80,FSTcomments
+24,1188,1431,TF, green,5,-0.025,0.80,FSTcomments
+25,777,1464,TG, green,5,-0.025,0.80,FSTcomments
+26,585,1095,Insula, green,5,-0.025,0.80,FSTcomments
+27,1135,931,A1, green,5,-0.025,0.80,FSTcomments
+28,1500,860,TPOJ1, #B58863,5,-0.025,0.80,FSTcomments
+29,1650,870,TPOJ2, #B58863,5,-0.025,0.80,FSTcomments
+30,1790,790,TPOJ3, #B58863,5,-0.025,0.80,FSTcomments
+31,1635,430,PFm, #B58863,5,-0.025,0.80,FSTcomments
+32,1090,660,PFop, #B58863,5,-0.025,0.80,FSTcomments
+33,1720,200,LIP, #B58863,5,-0.025,0.80,FSTcomments
+34,1500,230,AIP, #B58863,5,-0.025,0.80,FSTcomments
+35,1670,110,VIP, #B58863,5,-0.025,0.80,FSTcomments
+36,1270,240,1/2, #B58863,5,-0.025,0.80,FSTcomments
+37,1120,260,3a/3b, #B58863,5,-0.025,0.80,FSTcomments
+38,795,280,55, yellow,5,-0.025,0.80,FSTcomments
+39,795,190,FEF, yellow,5,-0.025,0.80,FSTcomments
+40,795,90,6a, yellow,5,-0.025,0.80,FSTcomments
+41,772,650,6r/6v, yellow,5,-0.025,0.80,FSTcomments
+42,545,820,44, yellow,5,-0.025,0.80,FSTcomments
+43,220,650,46, yellow,5,-0.025,0.80,FSTcomments
+44,510,550,8, yellow,5,-0.025,0.80,FSTcomments
+
