@@ -1,8 +1,8 @@
 Source,target,weight,direction,conflicting,comments
 9,0,0.3,intermediate,1,comment
-9,1,0.3,intermediate,1,comment
-9,2,0.9,intermediate,0,comment
-9,3,0.9,intermediate,1,comment
+9,1,0.3,feedback,1,comment
+9,2,0.9,feedback,0,comment
+9,3,0.9,feedforward,1,comment
 9,4,0.9,intermediate,0,comment
 9,6,0.9,intermediate,0,comment
 9,7,0.9,intermediate,0,comment

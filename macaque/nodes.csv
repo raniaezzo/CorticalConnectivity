@@ -9,7 +9,7 @@ id,x,y,label,color,size,center_x,center_y,FSTcomments
 7,1540,580,MT,pink,5,0.025,0.70,FSTcomments
 8,1450,500,MSTm/v,pink,5,0.025,0.80,FSTcomments
 9,1400,670,FST, pink,5,-0.025,0.80,FSTcomments
-10,1400,995,PITv,green,5,-0.12,0.90,FSTcomments
+10,1465,995,PITv,green,5,-0.12,0.90,FSTcomments
 11,1400,850,PITd,green,5,-0.10,0.90,FSTcomments
 12,1170,1050,CITd,green,5,-0.14,1.00,FSTcomments
 13,1280,1200,CITv,green,5,-0.12,1.00,FSTcomments
@@ -29,3 +29,13 @@ id,x,y,label,color,size,center_x,center_y,FSTcomments
 27,700,300,M1/F1,yellow,5,0.02,1.20,FSTcomments
 28,460,200,PMd,yellow,5,0.03,1.30,FSTcomments
 29,500,500,PMv,yellow,5,0.015,1.30,FSTcomments
+30,1280,300,7b,#B58863,5,0.06,0.9,FSTcomments
+31,1850,170,PO,#B58863,5,0.06,0.9,FSTcomments
+32,1350,1695,TF,green,5,0.06,0.9,FSTcomments
+33,0,0,thalamus,green,0,0,0,FSTcomments
+34,0,0,claustrum,green,0,0,0,FSTcomments
+35,0,0,striatum,green,0,0,0,FSTcomments
+36,0,0,basalfore,green,0,0,0,FSTcomments
+37,0,0,pretectum,green,0,0,0,FSTcomments
+38,0,0,SC,green,0,0,0,FSTcomments
+39,0,0,pons,green,0,0,0,FSTcomments
