@@ -7,7 +7,7 @@ id,x,y,label,color,size,center_x,center_y,FSTcomments
 5,1550,935,VOT/TEO,pink,5,-0.05,0.65,FSTcomments
 6,1575,690,V4t,pink,5,-0.025,0.70,FSTcomments
 7,1540,580,MT,pink,5,0.025,0.70,FSTcomments
-8,1450,500,MSTm/v,pink,5,0.025,0.80,FSTcomments
+8,1450,500,MSTl,pink,5,0.025,0.80,FSTcomments
 9,1400,670,FST, pink,5,-0.025,0.80,FSTcomments
 10,1465,995,PITv,green,5,-0.12,0.90,FSTcomments
 11,1400,850,PITd,green,5,-0.10,0.90,FSTcomments
