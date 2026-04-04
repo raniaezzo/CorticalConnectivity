@@ -28,7 +28,7 @@ id,x,y,label,color,size,center_x,center_y,FSTcomments
 27,1030,1390,TE2a, green,5,-0.025,0.80,FSTcomments
 28,1188,1631,TF, green,5,-0.025,0.80,FSTcomments
 29,777,1464,TG, green,5,-0.025,0.80,FSTcomments
-30,585,1095,Insula, green,5,-0.025,0.80,FSTcomments
+30,585,1095,insula, green,5,-0.025,0.80,FSTcomments
 31,1135,931,aud, green,5,-0.025,0.80,FSTcomments
 32,1500,860,TPOJ1, #B58863,5,-0.025,0.80,FSTcomments
 33,1650,870,TPOJ2, #B58863,5,-0.025,0.80,FSTcomments
@@ -40,22 +40,23 @@ id,x,y,label,color,size,center_x,center_y,FSTcomments
 39,1720,200,LIP, #B58863,5,-0.025,0.80,FSTcomments
 40,1500,230,AIP, #B58863,5,-0.025,0.80,FSTcomments
 41,1670,110,VIP, #B58863,5,-0.025,0.80,FSTcomments
-42,1270,240,BA1/2, #B58863,5,-0.025,0.80,FSTcomments
-43,1120,260,3a/3b, #B58863,5,-0.025,0.80,FSTcomments
-44,950,190,M1, yellow,5,-0.025,0.80,FSTcomments
-45,795,280,55, yellow,5,-0.025,0.80,FSTcomments
-46,795,190,FEF, yellow,5,-0.025,0.80,FSTcomments
-47,795,60,SEF, yellow,5,-0.025,0.80,FSTcomments
-48,675,90,PMd, yellow,5,-0.025,0.80,FSTcomments
-49,772,650,PMv, yellow,5,-0.025,0.80,FSTcomments
-50,545,820,44, yellow,5,-0.025,0.80,FSTcomments
-51,220,650,46, yellow,5,-0.025,0.80,FSTcomments
-52,510,550,8, yellow,5,-0.025,0.80,FSTcomments
-53,2450,430,V6,gray,5,0.06,0.9,FSTcomments
-54,2700,130,7,gray,5,0.06,0.9,FSTcomments
-55,3050,330,BA23,gray,5,0.06,0.9,FSTcomments
-56,2850,330,BA31,gray,5,0.06,0.9,FSTcomments
-57,3050,130,precuneus,gray,5,0.06,0.9,FSTcomments
-58,2950,530,RSC,gray,5,0.06,0.9,FSTcomments
-59,650,-900,mPFC,gray,5,0.06,0.9,FSTcomments
-60,795,-900,PreSMA,gray,5,0.06,0.9,FSTcomments
+42,1820,200,MIP, #B58863,5,-0.025,0.80,FSTcomments
+43,1270,240,BA1/2, #B58863,5,-0.025,0.80,FSTcomments
+44,1120,260,3a/3b, #B58863,5,-0.025,0.80,FSTcomments
+45,950,190,M1, yellow,5,-0.025,0.80,FSTcomments
+46,795,280,55b, yellow,5,-0.025,0.80,FSTcomments
+47,795,190,FEF, yellow,5,-0.025,0.80,FSTcomments
+48,795,60,SEF, yellow,5,-0.025,0.80,FSTcomments
+49,675,90,PMd, yellow,5,-0.025,0.80,FSTcomments
+50,772,650,PMv, yellow,5,-0.025,0.80,FSTcomments
+51,545,820,44, yellow,5,-0.025,0.80,FSTcomments
+52,220,650,46, yellow,5,-0.025,0.80,FSTcomments
+53,510,550,8, yellow,5,-0.025,0.80,FSTcomments
+54,2450,430,V6,gray,5,0.06,0.9,FSTcomments
+55,2700,130,7,gray,5,0.06,0.9,FSTcomments
+56,3050,330,BA23,gray,5,0.06,0.9,FSTcomments
+57,2850,330,BA31,gray,5,0.06,0.9,FSTcomments
+58,3050,130,precuneus,gray,5,0.06,0.9,FSTcomments
+59,2950,530,RSC,gray,5,0.06,0.9,FSTcomments
+60,650,-900,mPFC,gray,5,0.06,0.9,FSTcomments
+61,795,-900,PreSMA,gray,5,0.06,0.9,FSTcomment
