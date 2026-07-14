@@ -47,10 +47,10 @@ source,targetid,targetname,evidencecount,projections,connectivitystrength,certai
 10,48,SEF,1,bidirectional,moderate,conflicting,higher
 10,49,PMd,2,bidirectional,moderate,conflicting,higher
 10,50,PMv,2,bidirectional,moderate,conflicting,higher
-10,51,44,1,bidirectional,moderate,certain,inferred from functional complexity of abstract reasoning and language
-10,53,8,1,bidirectional,moderate,certain,higher
+10,51,BA44,1,bidirectional,moderate,certain,inferred from functional complexity of abstract reasoning and language
+10,53,BA8,1,bidirectional,moderate,certain,higher
 10,54,V6,2,bidirectional,moderate,conflicting,lower
-10,55,7,2,bidirectional,moderate,certain,higher
+10,55,BA7,2,bidirectional,moderate,certain,higher
 10,56,BA23,2,bidirectional,moderate,conflicting,higher
 10,58,precuneus,2,bidirectional,moderate,certain,higher
 10,59,RSC,1,bidirectional,weak,conflicting,higher
