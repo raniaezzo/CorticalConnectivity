@@ -29,8 +29,8 @@ source,targetid,targetname,evidencecount,projections,connectivitystrength,certai
 9,30,S1,1,bidirectional,weak,certain,equal
 9,32,FEF,3,bidirectional,moderate,certain,higher
 9,33,SEF,1,mainsend,moderate,certain,higher
-9,34,DLPFC,1,mainsend,weak,certain,higher
-9,35,VLPFC,1,bidirectional,weak,certain,higher
+9,34,dlPFC,1,mainsend,weak,certain,higher
+9,35,vlPFC,1,bidirectional,weak,certain,higher
 9,36,M1,1,bidirectional,weak,certain,higher
 9,37,PMd,2,bidirectional,moderate,certain,higher
 9,38,PMv,1,bidirectional,weak,certain,higher

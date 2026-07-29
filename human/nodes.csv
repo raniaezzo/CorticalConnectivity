@@ -59,4 +59,4 @@ id,x,y,label,color,size,center_x,center_y,FSTcomments
 58,3050,130,precuneus,black,5,0.06,0.9,FSTcomments
 59,2950,530,RSC,black,5,0.06,0.9,FSTcomments
 60,650,-900,mPFC,black,5,0.06,0.9,FSTcomments
-61,795,-900,PreSMA,black,5,0.06,0.9,FSTcomment
+61,795,-900,preSMA,black,5,0.06,0.9,FSTcomment
