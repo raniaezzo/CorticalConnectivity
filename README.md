@@ -6,16 +6,16 @@ The whole pipeline lives in a single notebook: [network_diagram.ipynb](network_d
 
 ## Requirements
 
-Python 3, Jupyter (Notebook, JupyterLab, or an equivalent like VS Code's Jupyter extension) to open `network_diagram.ipynb`, and:
+Python 3, Jupyter Notebook (or an equivalent like JupyterLab or VS Code's Jupyter extension) to open `network_diagram.ipynb`, and:
 
 ```bash
-pip install jupyterlab pandas numpy plotly pillow matplotlib kaleido
+pip install notebook pandas numpy plotly pillow matplotlib kaleido
 ```
 
 `kaleido` is required by plotly's `fig.write_image(...)` call used to export the final PDF. Once installed, launch it from the repo root with:
 
 ```bash
-jupyter lab
+jupyter notebook
 ```
 
 ## Before you run it
