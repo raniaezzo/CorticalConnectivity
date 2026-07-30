@@ -18,12 +18,7 @@ pip install pandas numpy plotly pillow matplotlib networkx kaleido
 
 ## Before you run it
 
-1. **Set `datapath`.** Near the top of the second cell, `datapath` is hardcoded to a local absolute path:
-   ```python
-   datapath = "/Users/rje257/Documents/GitHub/CorticalConnectivity/"
-   ```
-   Change this to wherever you've cloned this repo.
-2. **Run the notebook from the repo root.** The plotting cell loads `nodes.csv`/`edges.csv` with paths relative to the working directory (`os.path.join(species, "selectnodes.csv")`), so your Jupyter working directory must be the repo root, not a subfolder.
+**Run the notebook from the repo root.** All paths in the notebook are resolved dynamically from `datapath = os.getcwd()`, so there's nothing to hard-code — just make sure Jupyter's working directory is this repo's root folder (the folder containing `network_diagram.ipynb`) when you launch it, not a subfolder like `human/` or `macaque/`.
 
 ## Important flags
 
@@ -68,7 +63,7 @@ Running the full pipeline for a given `species`/`mainROI`:
 1. Rewrites `<species>/edges.csv` — the computed connection list for the current settings.
 2. Rewrites `<species>/selectnodes.csv` — the node list filtered/annotated for the current settings.
 3. Displays an interactive Plotly figure.
-4. Saves a static image to the repo root as `<species>_<roi>_displaybrain<0|1>.pdf` (e.g. [human_FST_displaybrain0.pdf](human_FST_displaybrain0.pdf), [macaque_FST_displaybrain0.pdf](macaque_FST_displaybrain0.pdf)).
+4. Saves a static image to the repo root as `<species>_<roi>_displaybrain<0|1>.pdf` (e.g. `human_FST_displaybrain0.pdf`).
 
 Because `edges.csv` and `selectnodes.csv` are regenerated (and overwritten) each run, treat them as build artifacts of `evidence.csv` and `nodes.csv` rather than source data to hand-edit.
 
@@ -78,11 +73,10 @@ Because `edges.csv` and `selectnodes.csv` are regenerated (and overwritten) each
 CorticalConnectivity/
 ├── network_diagram.ipynb   # main notebook — see above
 ├── human/                  # human data + assets
-├── macaque/                # macaque data + assets
-├── human_FST_displaybrain0.pdf   # example output figure
-├── macaque_FST_displaybrain0.pdf # example output figure
-└── testsurface.png         # scratch image used by an experimental/unused cell
+└── macaque/                # macaque data + assets
 ```
+
+Running the notebook (see [Output](#output) below) will also produce a `<species>_<roi>_displaybrain<0|1>.pdf` file at the repo root.
 
 Each species folder (`human/`, `macaque/`) has the same layout:
 
