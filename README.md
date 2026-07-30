@@ -4,6 +4,16 @@ Generates schematic diagrams of structural/functional connectivity for a chosen 
 
 The whole pipeline lives in a single notebook: [network_diagram.ipynb](network_diagram.ipynb).
 
+## View the diagrams online
+
+No setup required — the interactive figures are hosted via GitHub Pages and update automatically whenever the `.html` outputs are regenerated and pushed to `main`:
+
+- **[All diagrams](https://raniaezzo.github.io/CorticalConnectivity/)**
+- [Human — FST connectivity](https://raniaezzo.github.io/CorticalConnectivity/human_FST_displaybrain1.html)
+- [Macaque — FST connectivity](https://raniaezzo.github.io/CorticalConnectivity/macaque_FST_displaybrain1.html)
+
+(GitHub's own file browser can't preview these — they're too large for that viewer and will show "View raw" instead. Use the links above, not the `blob/main/...` links on github.com.)
+
 ## Requirements
 
 Python 3, Jupyter Notebook (or an equivalent like JupyterLab or VS Code's Jupyter extension) to open `network_diagram.ipynb`, and:
