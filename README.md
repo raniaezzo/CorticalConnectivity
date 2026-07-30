@@ -6,15 +6,17 @@ The whole pipeline lives in a single notebook: [network_diagram.ipynb](network_d
 
 ## Requirements
 
-Python 3 with:
+Python 3, Jupyter (Notebook, JupyterLab, or an equivalent like VS Code's Jupyter extension) to open `network_diagram.ipynb`, and:
 
 ```bash
-pip install pandas numpy plotly pillow matplotlib networkx kaleido
+pip install jupyterlab pandas numpy plotly pillow matplotlib kaleido
 ```
 
-`kaleido` is required by plotly's `fig.write_image(...)` call used to export the final PDF.
+`kaleido` is required by plotly's `fig.write_image(...)` call used to export the final PDF. Once installed, launch it from the repo root with:
 
-> Note: the notebook also contains some unused, exploratory cells near the bottom (`pyvis`, `jaal`, `scikit-network`) left over from evaluating alternative plotting libraries. These are **not** part of the working pipeline and reference files (e.g. `facebook_combined.txt`) that aren't in this repo — you can ignore or delete them.
+```bash
+jupyter lab
+```
 
 ## Before you run it
 
@@ -63,7 +65,7 @@ Running the full pipeline for a given `species`/`mainROI`:
 1. Rewrites `<species>/edges.csv` — the computed connection list for the current settings.
 2. Rewrites `<species>/selectnodes.csv` — the node list filtered/annotated for the current settings.
 3. Displays an interactive Plotly figure.
-4. Saves a static image to the repo root as `<species>_<roi>_displaybrain<0|1>.pdf` (e.g. `human_FST_displaybrain0.pdf`).
+4. Saves the figure to the repo root as both a static `<species>_<roi>_displaybrain<0|1>.pdf` (e.g. `human_FST_displaybrain0.pdf`) and an interactive, self-contained `<species>_<roi>_displaybrain<0|1>.html` (e.g. `human_FST_displaybrain0.html`) that preserves hover tooltips (`comment`/`evidencesource`) and can be opened directly in a browser.
 
 Because `edges.csv` and `selectnodes.csv` are regenerated (and overwritten) each run, treat them as build artifacts of `evidence.csv` and `nodes.csv` rather than source data to hand-edit.
 

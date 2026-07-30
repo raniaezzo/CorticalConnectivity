@@ -1,0 +1,5 @@
+# generated figure exports
+*.pdf
+
+# macOS
+.DS_Store
